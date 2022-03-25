@@ -20,7 +20,6 @@ def sidebar_info():
 def main():
 
      
-    st.image("images/logo4.png",use_column_width=True)
     st.write("""The below interactive dashboard displays the most popular youtuber in every country aggregated by continents. \n\n The Popularity measures used for the original data collection were: \n\n
    ♟ **Number of subscribers.**  \n
    ♟ **Estimated Daily  and Monthly Earnings.** \n
