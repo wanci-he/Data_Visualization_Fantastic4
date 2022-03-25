@@ -20,16 +20,7 @@ def sidebar_info():
 def main():
 
      
-    st.write("""The below interactive dashboard displays the most popular youtuber in every country aggregated by continents. \n\n The Popularity measures used for the original data collection were: \n\n
-   ♟ **Number of subscribers.**  \n
-   ♟ **Estimated Daily  and Monthly Earnings.** \n
-   ♟ **Youtube CPM etc.** \n
-   It is good to note that not all country data were collected. You can learn more about the Data source below.\n\n
-   _**For this dasboard , only the no of Subcribers and the Estimated Daily Earnings were used as Metrics(in terms of sums and averages).**_\n\n
-   **Key Insights** \n\n
-   ♟ Based on the data, MarkAngelComedy is the most popular Channel in Nigeria. It is also the top 3 popular channel in Africa in  terms of number of subscribers and has the highest Estimated Daily Earnings in Africa.\n
-   ♟ Although Europe has the most no of subscribers(in terms of aggregate subrcribers of all the popular youtube channels), the popular youtuber channels in europe fall within only  9 of the 14 channel categories. Entertainment is the most frequent category.\n
-   Go ahead and play with the fliters and metrics\n\n
+    st.write("""The below interactive dashboard displays the investor rates in US.
     """)
 
     html_temp = """
