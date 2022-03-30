@@ -3,8 +3,8 @@ import streamlit.components.v1 as components
 
 # structuring the side bar menu
 def sidebar_info():
- st.sidebar.subheader('Fantastic Four')
- st.sidebar.markdown("""
+  st.sidebar.subheader('Fantastic Four')
+  st.sidebar.markdown("""
                 This visualization is for Data Visualization Assignment 4 .
 
 
