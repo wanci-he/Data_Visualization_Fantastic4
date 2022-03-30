@@ -19,7 +19,7 @@ def sidebar_info():
 #the body of the page
 def main():
 
-    st.title('Who Becomes an Inventor in America? Important factors nurturing future inventors')
+    st.header('Who Becomes an Inventor in America? Important factors nurturing future inventors')
     
 
     html_temp = """
