@@ -33,9 +33,6 @@ def main():
     components.html(html_temp, width=1000, height=500)
     
 
-    
-    st.markdown(f'Link to the public dashboard [here](https://public.tableau.com/views/DataVisualization_16482205230750/2_1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)')
-    
     max_width_str = f"max-width: 1030px;"
     st.markdown(f"""<style>.reportview-container .main .block-container{{{max_width_str}}}</style>""",unsafe_allow_html=True)
 
